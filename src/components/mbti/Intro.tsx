@@ -19,9 +19,9 @@ export const Intro = ({ onStart }: IntroProps) => {
         </div>
 
         <h1 className="mb-6 font-display text-5xl font-light leading-[1.05] sm:text-6xl md:text-7xl">
-          당신의 내면을
+          <span className="italic text-gradient-mystic">MBTI</span>
           <br />
-          <span className="italic text-gradient-mystic">비추는 거울</span>
+          성격 유형 검사
         </h1>
 
         <p className="mx-auto mb-12 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
