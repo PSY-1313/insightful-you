@@ -9,52 +9,52 @@
 
 @layer base {
   :root {
-    /* Core palette — deep midnight indigo with golden accent */
-    --background: 240 35% 7%;
-    --foreground: 40 30% 94%;
+    /* Core palette — soft white with violet accent */
+    --background: 270 50% 98%;
+    --foreground: 270 30% 15%;
 
-    --card: 240 30% 10%;
-    --card-foreground: 40 30% 94%;
+    --card: 0 0% 100%;
+    --card-foreground: 270 30% 15%;
 
-    --popover: 240 30% 10%;
-    --popover-foreground: 40 30% 94%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 270 30% 15%;
 
-    /* Primary — warm gold */
-    --primary: 42 78% 62%;
-    --primary-foreground: 240 40% 8%;
-    --primary-glow: 42 95% 72%;
+    /* Primary — rich violet */
+    --primary: 270 65% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 280 80% 70%;
 
-    /* Secondary — muted twilight violet */
-    --secondary: 258 30% 18%;
-    --secondary-foreground: 40 25% 90%;
+    /* Secondary — pale lavender */
+    --secondary: 270 40% 94%;
+    --secondary-foreground: 270 50% 25%;
 
-    --muted: 240 20% 14%;
-    --muted-foreground: 40 12% 65%;
+    --muted: 270 30% 95%;
+    --muted-foreground: 270 15% 45%;
 
-    --accent: 280 55% 55%;
-    --accent-foreground: 40 30% 96%;
+    --accent: 290 70% 65%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 70% 55%;
-    --destructive-foreground: 40 30% 96%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 240 20% 18%;
-    --input: 240 20% 16%;
-    --ring: 42 78% 62%;
+    --border: 270 30% 88%;
+    --input: 270 30% 92%;
+    --ring: 270 65% 55%;
 
     --radius: 1rem;
 
-    /* Mystic gradients */
-    --gradient-aurora: radial-gradient(ellipse at top, hsl(280 60% 25% / 0.6), transparent 60%),
-                       radial-gradient(ellipse at bottom right, hsl(220 70% 30% / 0.5), transparent 55%),
-                       linear-gradient(180deg, hsl(240 40% 6%), hsl(258 35% 9%));
-    --gradient-gold: linear-gradient(135deg, hsl(42 95% 72%), hsl(32 85% 55%));
-    --gradient-card: linear-gradient(160deg, hsl(258 30% 14% / 0.9), hsl(240 35% 9% / 0.85));
-    --gradient-text: linear-gradient(135deg, hsl(42 95% 75%) 0%, hsl(35 80% 60%) 50%, hsl(280 70% 70%) 100%);
+    /* Violet & white gradients */
+    --gradient-aurora: radial-gradient(ellipse at top, hsl(280 80% 88% / 0.7), transparent 60%),
+                       radial-gradient(ellipse at bottom right, hsl(260 80% 90% / 0.6), transparent 55%),
+                       linear-gradient(180deg, hsl(270 50% 98%), hsl(280 60% 96%));
+    --gradient-gold: linear-gradient(135deg, hsl(280 80% 70%), hsl(260 70% 55%));
+    --gradient-card: linear-gradient(160deg, hsl(0 0% 100% / 0.85), hsl(270 50% 97% / 0.75));
+    --gradient-text: linear-gradient(135deg, hsl(270 70% 55%) 0%, hsl(285 75% 60%) 50%, hsl(300 70% 65%) 100%);
 
     /* Shadows */
-    --shadow-glow: 0 0 60px hsl(42 95% 60% / 0.25), 0 0 120px hsl(280 70% 50% / 0.15);
-    --shadow-card: 0 30px 60px -20px hsl(240 60% 3% / 0.6), 0 0 0 1px hsl(40 30% 90% / 0.06);
-    --shadow-soft: 0 10px 30px -10px hsl(240 60% 3% / 0.5);
+    --shadow-glow: 0 0 60px hsl(270 70% 60% / 0.25), 0 0 120px hsl(290 70% 70% / 0.15);
+    --shadow-card: 0 30px 60px -20px hsl(270 50% 40% / 0.18), 0 0 0 1px hsl(270 30% 70% / 0.1);
+    --shadow-soft: 0 10px 30px -10px hsl(270 50% 40% / 0.15);
 
     /* Motion */
     --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
