@@ -73,7 +73,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, 'Noto Sans KR', sans-serif;
     background-image: var(--gradient-aurora);
     background-attachment: fixed;
     min-height: 100vh;
@@ -81,8 +81,8 @@
   }
 
   h1, h2, h3, .font-display {
-    font-family: 'Fraunces', 'Georgia', serif;
-    font-feature-settings: 'ss01', 'ss02';
+    font-family: 'Noto Serif KR', 'Georgia', serif;
+    font-weight: 500;
     letter-spacing: -0.02em;
   }
 }
